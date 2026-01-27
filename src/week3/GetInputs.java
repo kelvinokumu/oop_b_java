@@ -4,8 +4,10 @@ import java.util.Scanner;
 
 public class GetInputs {
 
+    static Scanner sc = new Scanner(System.in);
+
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
+
 
         System.out.println("Enter your name");
         String name = sc.next();
@@ -19,5 +21,15 @@ public class GetInputs {
 
         // BufferReader br = new BufferReader(new InputStreamReader(System.in));
     }
+
+    public static String getNames(){
+
+
+        System.out.println("Enter name ");
+        String userName = sc.next();
+
+        return userName;
+    }
+
     
 }
