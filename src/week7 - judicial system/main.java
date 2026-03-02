@@ -1,0 +1,8 @@
+package week7 - judicial system;
+
+public class main {
+    public static void main(String [] args){
+        
+    }
+
+}
