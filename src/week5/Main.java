@@ -12,6 +12,8 @@ public class Main {
         System.out.println(studentemail);
         // st.attendLecture();
         // Student.ChangeCourse();
+
+        Person p1 = new Person("John","p@gmail.com");
     }
     
 }
