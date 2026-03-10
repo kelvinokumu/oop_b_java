@@ -7,7 +7,6 @@ import java.util.Scanner;
 public class ValidateInput {
     public static void main(String[] args) throws FileNotFoundException {
         Scanner sc = new Scanner(System.in);
-        Scanner fileinput = new Scanner(new FileReader("test.txt"));
 
         int num = 0;
         boolean valid = false;
