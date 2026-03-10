@@ -8,7 +8,6 @@ public class GetInputs {
 
     public static void main(String[] args){
 
-
         System.out.println("Enter your name");
         String name = sc.next();
 
@@ -24,12 +23,9 @@ public class GetInputs {
 
     public static String getNames(){
 
-
         System.out.println("Enter name ");
         String userName = sc.next();
 
         return userName;
     }
-
-    
 }

@@ -1,5 +1,6 @@
 package exception;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class GetInput {
@@ -10,21 +11,21 @@ public class GetInput {
 
         System.out.println("Enter name ");
         String name = sc.next();
+
         try{
             System.out.println("Enter number ");
             int num;
             num = sc.nextInt();
-        } catch(Exception msg){
-            System.out.println(msg);
+        } catch(InputMismatchException msg){
+            System.out.println(msg); // catching the error
+            sc.next(); // clearing wrong input
         }
 
-        System.out.println("End");
+        System.out.println("Enter true or false");
+        boolean flag = sc.nextBoolean();
 
-//        System.out.println("Enter true or false");
-//        boolean flag = sc.nextBoolean();
-//
-//        System.out.println("Enter balance");
-//        Double balance = sc.nextDouble();
+        System.out.println("Enter balance");
+        Double balance = sc.nextDouble();
 
     }
 }
