@@ -12,5 +12,11 @@ public class Trials {
         Scanner sc = new Scanner(System.in);
 
         String name = br.readLine();
+
+
+
+
+
+
     }
 }
