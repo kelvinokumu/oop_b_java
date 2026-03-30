@@ -14,5 +14,14 @@ public class Maps {
         boolean flag = marks.containsKey("Jane"); // check if the key exists
         System.out.println(flag);
 
+        for(var item : marks.entrySet()){
+            System.out.println("Key is "+item.getKey());
+            System.out.println("Value is "+ item.getValue());
+            System.out.println("Key is "+item.getKey() + " Value is "+ item.getValue());
+        }
+
+        marks.remove("Jason"); // delete Charles
+        System.out.println(marks.get("Jason"));
+
     }
 }
