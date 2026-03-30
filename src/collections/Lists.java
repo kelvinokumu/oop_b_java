@@ -14,20 +14,25 @@ public class Lists {
         names.add("Cate");
 
         System.out.println(names);
-//        names.add(1,"Evans");
-//        System.out.println(names);
-//
-//        names.set(2,"Dennis");
-//        System.out.println(names);
-//
-//        for (String name : names){
-//
-//            // db connection
-////            fetch
-//            System.out.println("Title " +name);
-//        }
-//
+        names.add(1,"Evans");
+        System.out.println(names);
+
+        names.set(2,"Dennis");
+        System.out.println(names);
+
+        for (String name : names){
+
+            // db connection
+//            fetch
+            System.out.println("Title " +name);
+        }
+
 //        names.remove("Dennis"); // remove by object
 //        names.remove(0);  // remove by index
+        System.out.println(names.get(0)); // passing index
+        int lastitem = names.size()-1; // get the last index then fetch the value
+        System.out.println(names.get(lastitem)); // calculates the size -1
+
+
     }
 }
